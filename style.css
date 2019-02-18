@@ -40,7 +40,7 @@ body{
   margin: 0;
 }
 
-.content{
+/* .content{
   grid-area: content;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -50,7 +50,7 @@ body{
   'pikku-kuva pikku-kuva2'
   ;
   width: 906px;
-} 
+}  */
 
 h1{
   font-family: 'Courier New', Courier, monospace;
@@ -100,6 +100,7 @@ ul{
   margin: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   list-style-type: circle;
+  justify-self: center;
 }
 
 #erilainen{
