@@ -40,7 +40,7 @@ body{
   margin: 0;
 }
 
-/* .content{
+ .content{
   grid-area: content;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -50,7 +50,8 @@ body{
   'pikku-kuva pikku-kuva2'
   ;
   width: 906px;
-}  */
+  grid-auto-flow: dense;
+}  
 
 h1{
   font-family: 'Courier New', Courier, monospace;
